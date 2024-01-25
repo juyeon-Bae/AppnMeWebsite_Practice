@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+} 
+*{
+     
+    font-family: 'Pretendard';
+    /* 여백 설정 */
+    margin: 0;
+    padding: 0;
+    
+
+}
+html, body {
+    width: 100%;
+}
+ 
+ 
+ 
+#nav-menu{
+    display: flex;
+    list-style: none;   
+    align-items: center;
+     
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+     margin-right: 20px; 
+     margin-left: 50px; 
+    margin-top: 42px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    
+}
+#nav{
+  align-items: center;
+}
+ 
+
+
+.logo-img {
+  float:right;
+  height: 24px;
+  width: 24px;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-bottom: 37px;
+  margin-top: 39px;
+  display: flex;
+}
+
+#nav-menu li.nav-item a {
+    /* color: black; */
+    text-decoration: none;
+    color: #2B2B2B;
+    font-weight: bold;
+    
+}
+/*  */
+#nav-menu li:hover a {
+  color: palevioletred;
+}
+
+ 
+.generation-item{
+    display: inline-block;/*가로 배치*/
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+   margin-bottom: 20px;
+    
+   
+   
+}
+.generation-item:nth-child(1) { /*11기*/
+    font-weight: bold;
+    color: #2B2B2B;
+    font-size: 48px;
+    margin-left: 300px; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+  }
+
+  .generation-item:nth-child(2){ /*12기*/
+    color: #AEAEAE;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30PX;
+    
+  }
+  .generation-item a{
+    text-decoration: none;
+    color: #252525;
+    
+  }
+  .generation-item a:hover{
+    color: #AEAEAE;
+  }
+  
+
+    li.class-item  {
+    /* margin-left: 30px; */
+    margin-top: 40px;
+    margin-bottom: 70px;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 1px solid #AEAEAE;
+     
+  }
+   
+  
+  .class-item a{
+    text-decoration: none;
+    color: #AEAEAE;
+    line-height: 160%;
+    margin-left: 300px;
+    width: 330px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  .class-item:nth-child(1) a { /*소프트웨어과*/
+    color: #FF8DAF;
+   
+}
+.class-item:nth-child(2) a{ /*웹솔루션과*/
+  margin-left: 320px;
+  margin-right: 100px;
+  
+}
+  .class-item:nth-child(3) a{/*디자인과*/
+    margin-left: 250px;
+    margin-right: 230px;
+  }
+   
+  .class-item a:hover{
+    color: pink;
+  }
+  
+.member {
+    display: inline-block;
+    /* text-align: center; */
+    /* margin: 10px; */
+    /* position: relative; */
+  }
+  
+  .member-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    margin-left: 252px; /*왼쪽*/
+    margin-bottom: 20px;
+    
+  }
+  
+  .member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+  }
+  
+  .member-name {
+    /*bottom보류. 
+     footer때문에 일시적으로 값을 줌.*/
+    /* margin-bottom: 300px;    */
+    border: 1.5px solid #FF8DAF;;
+    border-radius: 30px;
+
+    padding: 15px;
+    display: inline-block;
+    width: 60px;
+    height: 10px;
+    margin-left: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: #2B2B2B;
+
+  }
+  .line{
+    justify-content: space-around;
+    border-bottom: 1px solid #AEAEAE; 
+  }
+
+  .member-logos {
+    display: flex;
+  }
+  
+ 
+
+
+.footer{
+  background-color: #F0F0F0;
+  padding: 56px ;  
+ 
+  
+}
+ .anm, .tell, .e-mail, .copyRight{
+  margin-left: 150px;
+}
+
+.AppnMe{
+ 
+  margin-left: 20px;
+  color: var(--primary, #FF8DAF);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; 
+  
+
+}
+.tell{
+margin-top: 16px;
+}
+.e-mail{
+margin-top: 8px;
+margin-bottom: 32px;
+}
+.copyRight{
+ color: #616161;
+
+ text-align: center;
+ margin-bottom: 45px;
+ border-top: 1px solid #252525; /* 구분선 추가 */
+ width: 1320px;
+height: 0px;
+ padding-top: 30px; /* 위쪽 간격 조정 */
+ margin-bottom: 20px; /* 아래쪽 간격 조정 */
+ 
+
+}
+.anm-logo{
+   width: 32px;
+   height: 32px;
+   background: url(logo.png), lightgray 50% / cover no-repeat;
+   background-blend-mode: darken;
+    
+  
+
+}
+ .insta{
+  width: 24px;
+  height: 24px;
+  background: url(insta.png), lightgray 50% / cover no-repeat;
+  background-blend-mode: darken;
+  margin-left: 1163px;
+  
+ }
+
+.instagram, .instagramHj, .instagramSy {
+  width: 32px;
+  height: 32px;
+}
+.github{
+  margin-left: 24px;
+  width: 32px;
+  height: 32px;
+}
+ .icon{
+  margin-top: 23px;
+  margin-left: 340px;
+  margin-bottom: 200px;
+ }
+
+ .instagramHj{
+  margin-left: 415px;
+ }
+ .instagramSy{
+  margin-left: 414px;
+ }
+ .githubHj{
+  margin-left: 24px;
+ }
+ .githubSy{
+  margin-left: 24px;
+ }
+ 
