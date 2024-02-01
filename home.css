@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+} 
+*{
+    font-family: 'Pretendard';
+    margin: 0;
+    padding: 0;
+}
+    
+ 
+#nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 6rem;  
+    gap: 3.6rem;
+    color: #000;
+
+    
+}
+
+#header {
+    position: fixed;
+    padding: 0 15vw;
+    width: 100%;
+    height: fit-content;
+}
+
+#nav {
+    color: #000;
+    width: 70vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+     
+}
+.nav-item a{
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+.logo-img {
+    width: 24px;
+    height: 24px;
+}
+ 
+#nav-menu li:hover a {
+    color: palevioletred;
+  }
+
+.introduce-letter{
+    margin-top: 200px;
+    margin-right: 514px;
+    color: var(--primary, #FF8DAF);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+}
+
+.introduce-letter2{
+    margin-right: 500px;
+    color: var(--gray-700, #828282);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
