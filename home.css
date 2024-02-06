@@ -79,3 +79,25 @@
     font-weight: 500;
     line-height: 160%;
 }
+#footer {
+    position: fixed; /*화면에 고정시킴 */
+    bottom: 0; /* 사진을 화면 아래로 이동 */
+    left: 0; /* 사진을 화면 왼쪽에 정렬 */
+    width: 100%; /* 사진의 너비를 화면 전체로 설정 */
+    margin-bottom: 50px;
+    
+    
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.arrowpicture {
+    width: 60px;  
+    height: 60px;
+    
+}
