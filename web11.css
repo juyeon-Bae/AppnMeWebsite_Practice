@@ -1,0 +1,283 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+  font-weight: 100;
+} 
+*{
+   
+  font-family: 'Pretendard';
+  /* 여백 설정 */
+  margin: 0;
+  padding: 0;
+  
+
+}
+html, body {
+  width: 100%;
+}
+
+
+
+#nav-menu{
+  display: flex;
+  list-style: none;   
+  align-items: center;
+   
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+   margin-right: 20px; 
+   margin-left: 50px; 
+  margin-top: 42px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  
+}
+#nav{
+align-items: center;
+}
+
+
+
+.logo-img {
+float:right;
+height: 24px;
+width: 24px;
+margin-right: 300px;
+margin-left: 300px;
+margin-bottom: 37px;
+margin-top: 39px;
+display: flex;
+}
+
+#nav-menu li.nav-item a {
+  /* color: black; */
+  text-decoration: none;
+  color: #2B2B2B;
+  font-weight: bold;
+  
+}
+/*  */
+#nav-menu li:hover a {
+color: palevioletred;
+}
+
+.generation-item a:hover{
+  color: #AEAEAE;
+}
+.generation-item{
+  display: inline-block;/*가로 배치*/
+  margin-right: 10px;
+  margin-left: 50px;
+  margin-top: 40px;
+ margin-bottom: 20px;
+  
+ 
+ 
+}
+.generation-item:nth-child(1) { /*11기*/
+  font-weight: bold;
+  color: #2B2B2B;
+  /* font-size: 30px; */
+  font-size: 48px;
+  margin-left: 300px; 
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+
+.generation-item:nth-child(2){
+  color: #AEAEAE;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30PX;
+  
+}
+.generation-item a{
+  text-decoration: none;
+  color: #252525;
+  
+}
+
+
+  li.class-item  {
+  /* margin-left: 30px; */
+  margin-top: 40px;
+  margin-bottom: 70px;
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 1px solid #AEAEAE;
+   
+}
+ 
+
+.class-item a{
+  text-decoration: none;
+  color: #AEAEAE;
+  line-height: 160%;
+  margin-left: 300px;
+  width: 330px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.class-item:nth-child(1) a { /*소프트웨어과*/
+  
+  color: #AEAEAE;
+}
+.class-item:nth-child(2) a{
+margin-left: 320px;
+margin-right: 100px;
+ color: #FF8DAF;
+}
+.class-item:nth-child(3) a{
+  margin-left: 250px;
+  margin-right: 230px;
+}
+ 
+.class-item a:hover{
+  color: pink;
+}
+
+ 
+#member {
+ margin-top: 50px;
+ margin-left: 250px;
+ margin-bottom: 150px;
+ 
+ 
+  
+}
+
+.photo{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+.member-name .name{
+  border: 1.5px solid #FF8DAF;;
+    border-radius: 30px;
+    padding: 15px;
+    width: 60px;
+    height: 10px;
+     margin-top: 32px;
+     margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B2B2B;
+}
+.icon{
+  margin-top: 26px;
+  margin-left: 80px;
+  display: flex;
+  gap: 1rem;
+}
+
+ 
+
+.instagram, .github{
+  height: 32px;
+  width: 32px;
+   
+}
+
+#footer {
+  padding: 56px 15vw;
+  background-color: #F0F0F0;
+}
+
+#footer img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.anm-logo {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.anm-logo span {
+  color: var(--primary, #FF8DAF);
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.info {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info > div {
+  color: var(--gray-800, #575757);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#footer hr {
+  margin: 2rem 0;
+  width: 100%;
+  color: #828282;
+  border: 0.4px solid;
+}
+
+.code {
+  text-align: center;
+  color: #616161;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.sns-logo{
+width: 24px;
+height: 24px;
+background: url(insta.png), lightgray 50% / cover no-repeat;
+background-blend-mode: darken;
+margin-left: 1000px;
+
+}
+/* .insta{
+width: 24px;
+height: 24px;
+background: url(insta.png), lightgray 50% / cover no-repeat;
+background-blend-mode: darken;
+margin-left: 1163px;
+
+}
+
+.instagram{
+width: 32px;
+height: 32px;
+}
+.github{
+margin-left: 24px;
+width: 32px;
+height: 32px;
+}
+.icon{
+margin-top: 23px;
+margin-left: 340px;
+margin-bottom: 200px;
+} */
+
+ 
